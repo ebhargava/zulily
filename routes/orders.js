@@ -5,7 +5,7 @@ var mysql = require('mysql');
 var connection = mysql.createConnection({
   host     : 'zulily.cljboxgxti7z.us-east-2.rds.amazonaws.com',
   user     : 'root',
-  password : 'root123!',
+  password : '',
   database : 'zulily'
 });
 
